@@ -1,0 +1,27 @@
+h1.title {
+  font-size: 25px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  height: 600px;
+  border: 1px solid $border-color-main;
+  border-radius: 5px;
+  background-color: $background-color-main;
+  ::placeholder {
+    color: $secondary-color-main;
+  }
+}
+
+button.submit-button {
+  background: #3565d1;
+  color: white;
+  width: 100%;
+  padding: 14px 0px;
+  border-radius: 8px;
+  border: none;
+  font-size: 25px;
+  margin: 20px 0px;
+}
